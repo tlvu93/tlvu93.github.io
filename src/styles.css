@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    border: solid black 1px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+#app {
+    /* display:flex; */
+}
+
+#logo {
+    height: 65px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#nav a {
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+}
+
+#sidebar {
+    width: 350px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+}
